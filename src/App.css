@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+.shortener {
+  width: fit-content;
+  margin: 0 auto;
+  text-align: center;
+}
+.shortener input, button {
+  height: 30px;
+  padding: 0 10px;
+}
+.shortener input {
+  border: 1px solid gray;
+  color: rgb(64, 64, 66);
+  border-radius: 5px 0 0 5px;
+}
+.shortener input:focus {
+  border: 1px solid rgb(64, 64, 66);
+  outline: none;
+}
+.shortener form > button {
+  background-color: rgb(64, 64, 66);
+  border: none;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+.shortener form > button:hover {
+  background-color: rgb(133, 133, 135)
+}
+.shortener__viewShot {
+  margin-top: 20px;
+  border: 1px solid gainsboro;
+  border-radius: 5px;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  color: rgb(64, 64, 66);
+  align-items: center;
+}
+.shortener__viewShot button {
+  background-color: transparent;
+  border: none;
+  color: gray;
+}
+.shortener__viewShot button:hover {
+  color: rgb(64, 64, 66);
+}
